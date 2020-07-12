@@ -1,14 +1,14 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import interactive from '@/views/interactive'
+import interactive from '@/views/interactive';
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: '/',
-    component: interactive
-  }
+    component: interactive,
+  },
 ];
 
 const router = new VueRouter({

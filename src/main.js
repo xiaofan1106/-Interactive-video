@@ -2,9 +2,10 @@ import Vue from 'vue';
 import router from './router';
 import store from './store';
 import './registerServiceWorker';
-import App from './App'
-import ElementUi from 'element-ui'
-import './assets/reset.css'
+import App from './App';
+import ElementUi from 'element-ui';
+import './assets/reset.css';
+
 Vue.config.productionTip = false;
 Vue.use(ElementUi);
 
