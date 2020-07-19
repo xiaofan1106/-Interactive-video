@@ -17,18 +17,18 @@
 </template>
 <script>
 export default {
-  name: "VideoInfo",
+  name: 'VideoInfo',
   data() {
     return {
       hold: false,
-      movie: "",
+      movie: '',
     };
   },
   computed: {
-    movies(){
+    movies() {
       return this.$store.movies;
     },
-  }
+  },
 };
 </script>
 <style lang="scss" scoped>

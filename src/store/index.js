@@ -28,6 +28,11 @@ export default new Vuex.Store({
   },
   mutations: {
   },
+  getters: {
+    searchMovies() {
+      return this.movies.filter(item => item.name.includes(this.movie));
+    }
+  },
   actions: {
   },
   modules: {
