@@ -1,10 +1,12 @@
 <template>
     <div class="main">
         <VideoInfo></VideoInfo>
+        <VideoCanvas></VideoCanvas>
     </div>
 </template>
 <script>
 import VideoInfo from '@/components/videoInfo/videoInfo.vue';
+import VideoCanvas from '@/components/mainCanvas/videoCanvas.vue'
 
 export default {
   data() {
@@ -14,6 +16,7 @@ export default {
   },
   components: {
     VideoInfo,
+    VideoCanvas
   },
 };
 </script>
